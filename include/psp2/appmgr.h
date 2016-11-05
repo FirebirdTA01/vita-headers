@@ -67,8 +67,12 @@ typedef struct SceAppMgrSystemEvent {
 
 typedef struct SceAppMgrAppState SceAppMgrAppState; // Missing struct
 typedef struct SceAppMgrExecOptParam SceAppMgrExecOptParam; // Missing struct
+typedef struct SceAppMgrLaunchAppOptParam SceAppMgrLaunchAppOptParam; // Missing struct
 
 #define SCE_APPMGR_MAX_APP_NAME_LENGTH	(31)
+
+//! name: The Title ID of the application
+int sceAppMgrDestroyAppByName(char *name);
 
 int _sceAppMgrGetAppState(SceAppMgrAppState *appState, uint32_t len, uint32_t version);
 
@@ -79,6 +83,12 @@ int _sceAppMgrGetAppState(SceAppMgrAppState *appState, uint32_t len, uint32_t ve
  */
 
 int sceAppMgrReceiveSystemEvent(SceAppMgrSystemEvent *systemEvent);
+
+//! Copies app param to an array
+//! App param example: type=LAUNCH_APP_BY_URI&uri=psgm:play?titleid=NPXS10031
+//! param: pointer to a 1024 byte location to store the app param
+//! Returns 0 for success
+int sceAppMgrGetAppParam(char *param);
 
 //! Obtains the BGM port, even when it is not in front
 int sceAppMgrAcquireBgmPort(void);
@@ -99,7 +109,9 @@ int sceAppMgrLoadExec(const char *appPath, char * const argv[],
 //! flags: 0x20000 to launch, otherwise it just goes to the livearea page
 int sceAppMgrLaunchAppByUri(int flags, char *uri);
 
-int sceAppMgrLaunchAppByName2(char *name);
+//! name: The Title ID of the application
+//! param: The parameter passed to the application which can be retrieved with sceAppMgrGetAppParam
+int sceAppMgrLaunchAppByName2(const char *name, const char *param, SceAppMgrLaunchAppOptParam *optParam);
 
 //! id: 100 (photo0), 101 (friends), 102 (messages), 103 (near), 105 (music), 108 (calendar)
 int sceAppMgrAppDataMount(int id, char *mount_point);
@@ -129,6 +141,11 @@ int sceAppMgrWorkDirMount(int id, char *mount_point);
 //! id: 205 (cache0), 207 (td)
 int sceAppMgrWorkDirMountById(int id, char *titleid, char *mount_point);
 
+//! Unmount a mountpoint
+//! Unmount app0: for example to enable write access to ux0:app/TITLEID
+//! Returns 0 on success
+int sceAppMgrUmount(const char *mount_point);
+	
 #ifdef __cplusplus
 }
 #endif

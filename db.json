@@ -195,23 +195,126 @@
             "SceAppMgrUser": {
                 "functions": {
                     "_sceAppMgrGetAppState": 1585852826, 
+                    "sceAppMgrAcidDirSet": 837789498, 
+                    "sceAppMgrAcquireSoundOutExclusive3": 3648701262, 
+                    "sceAppMgrAddContAddMount": 725662226, 
+                    "sceAppMgrAddContMount": 1429906811, 
                     "sceAppMgrAppDataMount": 689634268, 
                     "sceAppMgrAppDataMountById": 3904713405, 
+                    "sceAppMgrAppMount": 310328299, 
+                    "sceAppMgrAppParamGetInt": 2656535869, 
                     "sceAppMgrAppParamGetString": 208878306, 
+                    "sceAppMgrAppParamSetString": 1527234827, 
+                    "sceAppMgrAppUmount": 2518270288, 
+                    "sceAppMgrBgdlGetQueueStatus": 2076759478, 
+                    "sceAppMgrCaptureFrameBufDMACByAppId": 1157117052, 
+                    "sceAppMgrCaptureFrameBufIFTUByAppId": 2351224166, 
+                    "sceAppMgrCheckRifGD": 1851571362, 
+                    "sceAppMgrContentInstallPeriodStart": 622469709, 
+                    "sceAppMgrContentInstallPeriodStop": 3017787009, 
                     "sceAppMgrConvertVs0UserDrivePath": 2913625486, 
+                    "sceAppMgrDeclareShellProcess2": 4066477983, 
+                    "sceAppMgrDestroyAppByName": 1165024277, 
+                    "sceAppMgrDrmClose": 690568006, 
+                    "sceAppMgrDrmOpen": 3560955680, 
+                    "sceAppMgrForceUmount": 1420627839, 
+                    "sceAppMgrGameDataMount": 1234405228, 
+                    "sceAppMgrGetAppInfo": 1923865697, 
+                    "sceAppMgrGetAppMgrState": 2557627967, 
+                    "sceAppMgrGetAppParam": 2602836704, 
+                    "sceAppMgrGetAppParam2": 1031892474, 
+                    "sceAppMgrGetBootParam": 1944442237, 
+                    "sceAppMgrGetBudgetInfo": 1593897569, 
+                    "sceAppMgrGetCoredumpStateForShell": 667868053, 
+                    "sceAppMgrGetCurrentBgmState": 2897445482, 
+                    "sceAppMgrGetCurrentBgmState2": 1656667493, 
                     "sceAppMgrGetDevInfo": 1735414673, 
+                    "sceAppMgrGetFgAppInfo": 1509474753, 
+                    "sceAppMgrGetIdByName": 2046420538, 
+                    "sceAppMgrGetMediaTypeFromDrive": 3222579794, 
+                    "sceAppMgrGetMediaTypeFromDriveByPid": 2405569482, 
+                    "sceAppMgrGetMountProcessNum": 1129679113, 
+                    "sceAppMgrGetNameById": 4107710010, 
+                    "sceAppMgrGetPfsDrive": 329096595, 
+                    "sceAppMgrGetPidListForShell": 2534384484, 
                     "sceAppMgrGetRawPath": 244131816, 
+                    "sceAppMgrGetRawPathOfApp0ByAppIdForShell": 2178470237, 
+                    "sceAppMgrGetRawPathOfApp0ByPidForShell": 192537787, 
+                    "sceAppMgrGetRecommendedScreenOrientation": 2316988412, 
+                    "sceAppMgrGetRunningAppIdListForShell": 1631219938, 
+                    "sceAppMgrGetSaveDataInfo": 1861374840, 
+                    "sceAppMgrGetSaveDataInfoForSpecialExport": 3356379919, 
+                    "sceAppMgrGetStatusByAppId": 1200983525, 
+                    "sceAppMgrGetStatusById": 339649170, 
+                    "sceAppMgrGetStatusByName": 1701710525, 
+                    "sceAppMgrGetSystemDataFilePlayReady": 505321454, 
+                    "sceAppMgrGetUserDirPath": 1381184396, 
                     "sceAppMgrGetVs0UserDataDrive": 3227719496, 
                     "sceAppMgrGetVs0UserModuleDrive": 2422297822, 
+                    "sceAppMgrInitSafeMemoryById": 1045653530, 
+                    "sceAppMgrInstallDirMount": 872430332, 
+                    "sceAppMgrIsCameraActive": 2333228324, 
+                    "sceAppMgrLaunchAppByName": 3385294369, 
                     "sceAppMgrLaunchAppByName2": 1117019495, 
+                    "sceAppMgrLaunchAppByName2ForShell": 1678963412, 
+                    "sceAppMgrLaunchAppByName2ndStage": 2913734285, 
+                    "sceAppMgrLaunchAppByNameForShell": 2715039749, 
+                    "sceAppMgrLaunchAppByPath4": 3469723595, 
                     "sceAppMgrLaunchAppByUri": 3957583, 
                     "sceAppMgrLaunchAppByUri2": 248950612, 
+                    "sceAppMgrLaunchVideoStreamingApp": 1275246729, 
                     "sceAppMgrLoadExec": 3866577596, 
+                    "sceAppMgrLoopBackFormat": 3465339216, 
+                    "sceAppMgrLoopBackMount": 869103325, 
                     "sceAppMgrMmsMount": 4101180328, 
+                    "sceAppMgrOverwriteLaunchParamForShell": 3961510606, 
+                    "sceAppMgrPeekLaunchParamForShell": 1792416211, 
+                    "sceAppMgrPhotoMount": 4145857427, 
+                    "sceAppMgrPhotoUmount": 1058683628, 
+                    "sceAppMgrPspSaveDataGetParams": 3478712036, 
+                    "sceAppMgrPspSaveDataRead": 868512880, 
                     "sceAppMgrPspSaveDataRootMount": 3377167908, 
+                    "sceAppMgrReceiveEvent": 3484244538, 
+                    "sceAppMgrReceiveEventNum": 1206246781, 
+                    "sceAppMgrReceiveNotificationRequestForShell": 4041191919, 
+                    "sceAppMgrReceiveShellEvent": 363629650, 
                     "sceAppMgrReceiveSystemEvent": 280327775, 
+                    "sceAppMgrSaveDataAddMount": 2334279959, 
+                    "sceAppMgrSaveDataDataRemove": 1162149061, 
                     "sceAppMgrSaveDataDataSave": 2229171911, 
+                    "sceAppMgrSaveDataGetQuota": 119005870, 
+                    "sceAppMgrSaveDataMount": 838061145, 
+                    "sceAppMgrSaveDataSlotCreate": 1367463859, 
+                    "sceAppMgrSaveDataSlotDelete": 1796111600, 
+                    "sceAppMgrSaveDataSlotFileClose": 4252651244, 
+                    "sceAppMgrSaveDataSlotFileGetParam": 3245748603, 
+                    "sceAppMgrSaveDataSlotFileOpen": 2445152382, 
+                    "sceAppMgrSaveDataSlotGetParam": 392510832, 
+                    "sceAppMgrSaveDataSlotGetStatus": 523906853, 
+                    "sceAppMgrSaveDataSlotInit": 1334481649, 
+                    "sceAppMgrSaveDataSlotSetParam": 2818989988, 
+                    "sceAppMgrSaveDataSlotSetStatus": 1070794556, 
+                    "sceAppMgrSaveDataUmount": 2404465909, 
+                    "sceAppMgrSendNotificationRequest": 1850316759, 
+                    "sceAppMgrSendParam": 3141608206, 
+                    "sceAppMgrSendSystemEvent": 776870430, 
+                    "sceAppMgrSendSystemEvent2": 2935611137, 
+                    "sceAppMgrSetBackRenderPortOwner": 1900609902, 
+                    "sceAppMgrSetBgmProxyApp": 3291431401, 
                     "sceAppMgrSetNetworkDisconnectionWarningDialogState": 3813847708, 
+                    "sceAppMgrSetPowerSaveMode": 753926333, 
+                    "sceAppMgrSetRecommendedScreenOrientationForShell": 563102719, 
+                    "sceAppMgrSetShellScreenOrientation": 1551624008, 
+                    "sceAppMgrSetSystemDataFile": 878664896, 
+                    "sceAppMgrSetSystemDataFilePlayReady": 1143659127, 
+                    "sceAppMgrSystemParamDateTimeGetConf": 3818899413, 
+                    "sceAppMgrSystemParamGetInt": 1534400524, 
+                    "sceAppMgrSystemParamGetString": 160012808, 
+                    "sceAppMgrTrophyMount": 2231240942, 
+                    "sceAppMgrTrophyMountById": 828508147, 
+                    "sceAppMgrUmount": 1580685601, 
+                    "sceAppMgrUmountByPid": 2443172583, 
+                    "sceAppMgrUpdateSaveDataParam": 453759501, 
                     "sceAppMgrWorkDirMount": 2604380749, 
                     "sceAppMgrWorkDirMountById": 2162716226
                 }, 
@@ -688,16 +791,26 @@
                 "functions": {
                     "sceCtrlClearRapidFire": 3626585244, 
                     "sceCtrlGetSamplingMode": 3967101615, 
+                    "sceCtrlGetControllerPortInfo": 844045158,
                     "sceCtrlPeekBufferNegative": 273600935, 
                     "sceCtrlPeekBufferPositive": 2848181974, 
                     "sceCtrlPeekBufferPositive2": 368582284, 
+                    "sceCtrlPeekBufferPositiveExt": 2777961683,
+                    "sceCtrlPeekBufferPositiveExt2": 2248929938,
                     "sceCtrlReadBufferNegative": 368668592, 
                     "sceCtrlReadBufferPositive": 1743235971, 
+                    "sceCtrlReadBufferPositive2": 3290589758,
+                    "sceCtrlReadBufferPositiveExt2": 2803337312,
                     "sceCtrlSetActuator": 3687489737, 
                     "sceCtrlSetButtonIntercept": 1128100340, 
+                    "sceCtrlGetButtonIntercept": 1873784069,
                     "sceCtrlSetLightBar": 3658601523, 
                     "sceCtrlSetRapidFire": 3922422216, 
-                    "sceCtrlSetSamplingMode": 2761404752
+                    "sceCtrlSetSamplingMode": 2761404752,
+                    "sceCtrlSetSamplingModeExt": 2984002424,
+                    "sceCtrlDisconnect": 382889415,
+                    "sceCtrlSingleControllerMode": 52159382,
+                    "sceCtrlGetBatteryInfo": 2409307365
                 }, 
                 "kernel": false, 
                 "nid": 3516392391, 
@@ -1571,8 +1684,253 @@
         }, 
         "nid": 70
     }, 
-    "SceKernel": {
+    "SceSysmem": {
+        "nid": 3107541190,
         "modules": {
+            "SceSysmemForDriver": {
+                "kernel": true,
+                "nid": 1864753546,
+                "variables": {},
+                "functions": {
+                    "sceKernelMemcpyKernelToUser": 1837690762,
+                    "sceKernelMemcpyUserToKernel": 3164170874,
+                    "sceKernelStrncpyKernelToUser": 2159898603,
+                    "sceKernelStrncpyUserToKernel": 3678323268,
+                    "sceKernelStrlenUser": 3022640153,
+                    "sceKernelGetPaddr": 2367032933,
+                    "sceKernelGetPaddrList": 3867930301,
+                    "sceKernelGetMemBlockBaseForDriver": 2822893018,
+                    "sceKernelFindMemBlockByAddrForDriver": 2316780278,
+                    "sceKernelRemapBlock": 3756181707,
+                    "sceKernelMemPoolCreate": 2468929768,
+                    "sceKernelMemPoolDestroy": 3594745399,
+                    "sceKernelMemPoolAlloc": 2068624906,
+                    "sceKernelMemPoolFree": 1052566339,
+                    "sceKernelMapUserBlock": 2102365023,
+                    "sceKernelSwitchVmaForPid": 1865076142,
+                    "sceKernelRoMemcpyKernelToUserForPid": 1461528377,
+                    "sceKernelFirstDifferentIntUserForPid": 2201240911,
+                    "sceKernelStrnlenUserForPid": 2569661191,
+                    "sceKernelStrncpyUserForPid": 1974137208,
+                    "sceKernelMemcpyKernelToUserForPidUnchecked": 4275580717,
+                    "sceKernelMemcpyKernelToUserForPid": 1803703417,
+                    "sceKernelMemcpyUserToKernelForPid": 1616016888,
+                    "sceKernelMemcpyUserToUserForPid": 2382916659,
+                    "sceKernelKernelUidForUserUid": 1171400087,
+                    "sceKernelCreateUserUid": 3206584409,
+                    "sceKernelGetObjForUid": 15559700,
+                    "sceKernelGetUidClass": 2234739228,
+                    "sceKernelCreateClass": 1630630146, 
+                    "sceKernelDeleteUid": 75313906,
+                    "sceKernelDeleteUserUid": 2225385310,
+                    "sceKernelAllocMemBlockForKernel": 3376959689,
+                    "sceKernelGetMemBlockBaseForKernel": 2822893018,
+                    "sceKernelFreeMemBlockForKernel": 10361953,
+                    "sceKernelGetPidContext": 785348932,
+                    "sceKernelMapBlockUserVisible": 1490163526
+                }
+            },
+            "SceSysmemForKernel": {
+                "kernel": true,
+                "nid": 1671764453,
+                "variables": {},
+                "functions": {
+                    "sceKernelCreateUidObj": 3741485271,
+                    "sceKernelRxMemcpyKernelToUserForPid": 814945650
+                }
+            },
+            "SceSysclibForDriver": {
+                "kernel": true,
+                "nid": 2128892817,
+                "variables": {},
+                "functions": {
+                    "memcpy": 1086882582,
+                    "memset": 179945308,
+                    "strchr": 944125785,
+                    "strncmp": 315549257,
+                    "strcmp": 187939907,
+                    "strstr": 319071901,
+                    "rshift": 495580864,
+                    "strrchr": 2131626037,
+                    "strncat": 2714878764,
+                    "strtol": 2876753322,
+                    "snprintf": 2927266177,
+                    "sceKernelStackCheckFail": 3113699645,
+                    "strnlen": 3444299908,
+                    "strlen": 3485903276,
+                    "memcmp": 4181321789
+                }
+            },
+            "SceCpuForKernel": {
+                "kernel": true,
+                "nid": 1421814699,
+                "variables": {},
+                "functions": {
+                    "sceKernelCpuSaveContext": 555452890,
+                    "sceKernelCpuRestoreContext": 172953529,
+                    "sceKernelCpuIcacheAndL2Flush": 435256272,
+                    "sceKernelCpuUnrestrictedMemcpy": 2355641836,
+                    "sceKernelCpuDcacheFlush": 1805837596
+                }
+            },
+            "SceCpuForDriver": {
+                "kernel": true,
+                "nid": 1089264398,
+                "variables": {},
+                "functions": {
+                    "sceKernelCpuDisableInterrupts": 2183119086,
+                    "sceKernelCpuEnableInterrupts": 4122661947,
+                    "sceKernelCpuDcacheAndL2AndDMAFlush": 911108260,
+                    "sceKernelCpuDcacheAndL2Flush": 2629431502
+                }
+            },
+            "SceSysrootForKernel": {
+                "kernel": true,
+                "nid": 915528261,
+                "variables": {},
+                "functions": {
+                    "sceKernelGetSysrootBuffer": 1044731970,
+                    "sceKernelGetProcessTitleIdForKernel": 3962643619
+                }
+            },
+            "SceSysmem": {
+                "functions": {
+                    "sceKernelAllocMemBlock": 3117804510, 
+                    "sceKernelAllocMemBlockForVM": 3805798711, 
+                    "sceKernelCloseMemBlock": 3061900192, 
+                    "sceKernelCloseVMDomain": 3603584714, 
+                    "sceKernelFindMemBlockByAddr": 2738592209, 
+                    "sceKernelFreeMemBlock": 2837321198, 
+                    "sceKernelGetFreeMemorySize": 2278316043, 
+                    "sceKernelGetMemBlockBase": 3102693400, 
+                    "sceKernelGetMemBlockInfoByAddr": 1074834789, 
+                    "sceKernelGetMemBlockInfoByRange": 7290292, 
+                    "sceKernelGetModelForCDialog": 2731225647,
+                    "sceKernelGetModel": 3503617833,
+                    "sceKernelOpenMemBlock": 2394480571, 
+                    "sceKernelOpenVMDomain": 2627988267, 
+                    "sceKernelSyncVMDomain": 433235994
+                }, 
+                "kernel": false, 
+                "nid": 939422298, 
+                "variables": {}
+            }
+        }
+    },
+    "SceKernelThreadMgr": {
+        "nid": 2694642268,
+        "modules": {
+            "SceThreadmgrForKernel": {
+                "kernel": true,
+                "nid": 2831814397,
+                "variables": {},
+                "functions": {
+                    "sceKernelCreateMutexForKernel": 4222222958,
+                    "sceKernelDeleteMutexForKernel": 177283904, 
+                    "sceKernelLockMutexForKernel": 380403909, 
+                    "sceKernelUnlockMutexForKernel": 511894992,
+                    "sceKernelRunWithStack": 3847214918
+                }
+            }, 
+            "SceThreadmgrForDriver": {
+                "kernel": true,
+                "nid": 3804497444,
+                "variables": {},
+                "functions": {
+                    "sceKernelGetProcessId": 2647346042,
+                    "sceKernelGetSystemTimeWideForDriver": 4109258665,
+                    "sceKernelWaitThreadEndForKernel": 1042293103,
+                    "sceKernelCreateThreadForKernel": 3328659069,
+                    "sceKernelDeleteThreadForKernel": 2894286655,
+                    "sceKernelStartThreadForKernel": 569721243
+                }
+            },
+            "SceThreadmgr": {
+                "functions": {
+                    "sceKernelCancelCallback": 812916466, 
+                    "sceKernelChangeActiveCpuMask": 1143800, 
+                    "sceKernelChangeThreadCpuAffinityMask": 353538420, 
+                    "sceKernelChangeThreadPriority": 3170974194, 
+                    "sceKernelChangeThreadVfpException": 3424189358, 
+                    "sceKernelCheckCallback": 3846062582, 
+                    "sceKernelCheckWaitableStatus": 3653072107, 
+                    "sceKernelClearEvent": 2066369320, 
+                    "sceKernelClearEventFlag": 1287158951, 
+                    "sceKernelCloseCond": 365334752, 
+                    "sceKernelCloseEventFlag": 2590569799, 
+                    "sceKernelCloseMsgPipe": 319135845, 
+                    "sceKernelCloseMutex": 65157878, 
+                    "sceKernelCloseRWLock": 4250654145, 
+                    "sceKernelCloseSema": 2732072862, 
+                    "sceKernelCloseSimpleEvent": 4277455443, 
+                    "sceKernelCloseTimer": 2900758090, 
+                    "sceKernelCreateCallback": 2979854313, 
+                    "sceKernelCreateThreadForUser": 3237672611, 
+                    "sceKernelDelayThread": 1265065221, 
+                    "sceKernelDelayThreadCB": 2617344225, 
+                    "sceKernelDeleteCallback": 3563677547, 
+                    "sceKernelDeleteCond": 2275307197, 
+                    "sceKernelDeleteEventFlag": 1480594988, 
+                    "sceKernelDeleteMsgPipe": 3884698871, 
+                    "sceKernelDeleteMutex": 3413668109, 
+                    "sceKernelDeleteRWLock": 3879094730, 
+                    "sceKernelDeleteSema": 3677525130, 
+                    "sceKernelDeleteSimpleEvent": 546111016, 
+                    "sceKernelDeleteThread": 465429465, 
+                    "sceKernelDeleteTimer": 2870887108, 
+                    "sceKernelExitDeleteThread": 488103631, 
+                    "sceKernelGetCallbackCount": 59131093, 
+                    "sceKernelGetMsgPipeCreatorId": 1893902034, 
+                    "sceKernelGetProcessId": 2647346042, 
+                    "sceKernelGetSystemTimeWide": 4109258665,
+                    "sceKernelGetThreadStackFreeSize": 1334459808, 
+                    "sceKernelGetThreadmgrUIDClass": 3379007359, 
+                    "sceKernelGetTimerBaseWide": 1572608352, 
+                    "sceKernelGetTimerTimeWide": 1056780645, 
+                    "sceKernelNotifyCallback": 2758292882, 
+                    "sceKernelOpenCond": 1992138799, 
+                    "sceKernelOpenEventFlag": 3155818657, 
+                    "sceKernelOpenMsgPipe": 236763638, 
+                    "sceKernelOpenMutex": 1390506370, 
+                    "sceKernelOpenRWLock": 3461415318, 
+                    "sceKernelOpenSema": 3420599751, 
+                    "sceKernelOpenSimpleEvent": 1310608888, 
+                    "sceKernelOpenTimer": 3068298983, 
+                    "sceKernelPollSema": 2255417416, 
+                    "sceKernelPulseEvent": 2368191190, 
+                    "sceKernelRegisterCallbackToEvent": 1996175337, 
+                    "sceKernelSendSignal": 3569575858, 
+                    "sceKernelSetEvent": 843192525, 
+                    "sceKernelSetEventFlag": 3969179639, 
+                    "sceKernelSetTimerTimeWide": 658197069, 
+                    "sceKernelSignalCond": 1859314396, 
+                    "sceKernelSignalCondAll": 3269962786, 
+                    "sceKernelSignalCondTo": 308933868, 
+                    "sceKernelSignalSema": 3870777809, 
+                    "sceKernelStartTimer": 1208557068, 
+                    "sceKernelStopTimer": 2258542368, 
+                    "sceKernelTryLockMutex": 1929125716, 
+                    "sceKernelTryLockReadRWLock": 4024280150, 
+                    "sceKernelTryLockWriteRWLock": 543996774, 
+                    "sceKernelUnlockMutex": 439824072, 
+                    "sceKernelUnlockReadRWLock": 1056510277, 
+                    "sceKernelUnlockWriteRWLock": 3021280151, 
+                    "sceKernelUnregisterCallbackFromEvent": 407251729, 
+                    "sceKernelUnregisterCallbackFromEventAll": 2290774881,
+                    "sceKernelGetThreadTLSAddr": 3133827217
+                }, 
+                "kernel": false, 
+                "nid": 2241471665, 
+                "variables": {}
+            }, 
+            "SceThreadmgrCoredumpTime": {
+                "functions": {
+                    "sceKernelExitThread": 210385121
+                }, 
+                "kernel": false, 
+                "nid": 1586302498, 
+                "variables": {}
+            },
             "SceCpu": {
                 "functions": {}, 
                 "kernel": false, 
@@ -1597,7 +1955,72 @@
                 "kernel": false, 
                 "nid": 3010287906, 
                 "variables": {}
+            }
+        }
+    },
+    "SceKernelModulemgr": {
+        "nid": 1919706677,
+        "modules": {
+            "SceModulemgrForKernel": {
+                "kernel": true,
+                "nid": 3292920419,
+                "variables": {},
+                "functions": {
+                    "sceKernelGetModuleListForKernel": 2546957134,
+                    "sceKernelGetModuleInternal": 4264573027,
+                    "sceKernelGetModuleInfoForKernel": 3530160405,
+                    "sceKernelLoadModuleForPid": 4196522187
+                }
             }, 
+            "SceModulemgrForDriver": {
+                "kernel": true,
+                "nid": 3567651410,
+                "variables": {},
+                "functions": {
+                    "sceKernelGetSystemSwVersion": 1367532050,
+                    "sceKernelLoadStartModuleForDriver": 412875707,
+                    "sceKernelLoadModuleForDriver": 2262357556,
+                    "sceKernelStartModuleForDriver": 108377730,
+                    "sceKernelStopUnloadModuleForDriver": 269332153,
+                    "sceKernelUnloadModuleForDriver": 1921938086,
+                    "sceKernelLoadStartSharedModuleForPid": 3803049869,
+                    "sceKernelLoadStartModuleForPid": 2643803170
+                }
+            },
+            "SceModulemgr": {
+                "functions": {
+                    "sceKernelGetModuleIdByAddr": 4118383740, 
+                    "sceKernelGetModuleInfo": 911760815, 
+                    "sceKernelGetModuleList": 787634207, 
+                    "sceKernelGetSystemSwVersion": 1367532050
+                }, 
+                "kernel": false, 
+                "nid": 3941406230, 
+                "variables": {}
+            }
+        }
+    },
+    "SceIofilemgr": {
+        "nid": 1042566167, 
+        "modules": {
+            "SceIofilemgrForDriver": {
+                "kernel": true, 
+                "nid": 1090333127, 
+                "variables": {}, 
+                "functions": {
+                    "sceIoDreadForDriver": 550461383,
+                    "sceIoWriteForDriver": 569283056,
+                    "sceIoDopenForDriver": 1178281420,
+                    "sceIoLseekForDriver": 1644758145,
+                    "sceIoOpenForDriver": 1964583282,
+                    "sceIoChstatForDriver": 2101524700,
+                    "sceIoGetstatForDriver": 1976134949,
+                    "sceIoMkdirForDriver": 2138114853,
+                    "sceIoReadForDriver": 3783195651,
+                    "sceIoCloseForDriver": 4187871395,
+                    "sceIoRenameForDriver": 3691792791
+                }
+            },
             "SceIofilemgr": {
                 "functions": {
                     "sceIoCancel": 3472132149, 
@@ -1625,7 +2048,47 @@
                 "kernel": false, 
                 "nid": 4076808046, 
                 "variables": {}
-            }, 
+            }
+        }
+    },
+    "SceProcessmgr": {
+        "nid": 4028228058,
+        "modules": {
+            "SceProcessmgr": {
+                "functions": {
+                    "sceKernelGetStderr": 4200479450, 
+                    "sceKernelGetStdin": 3245506393, 
+                    "sceKernelGetStdout": 3853148764, 
+                    "sceKernelIsCDialogAvailable": 339461334, 
+                    "sceKernelIsGameBudget": 3457090288, 
+                    "sceKernelLibcClock": 2655377929, 
+                    "sceKernelLibcGettimeofday": 1267175513, 
+                    "sceKernelLibcGmtime_r": 3164878797, 
+                    "sceKernelLibcLocaltime_r": 2498773485, 
+                    "sceKernelLibcMktime": 2299255865, 
+                    "sceKernelLibcTime": 3784261, 
+                    "sceKernelPowerLock": 2057778040, 
+                    "sceKernelPowerTick": 575834380, 
+                    "sceKernelPowerUnlock": 1181486269, 
+                    "sceKernelRegisterProcessTerminationCallback": 1590130800, 
+                    "sceKernelUnregisterProcessTerminationCallback": 2537178407
+                }, 
+                "kernel": false, 
+                "nid": 769202194, 
+                "variables": {}
+            },
+            "SceProcessmgrForKernel": {
+                "kernel": true, 
+                "nid": 2053758598, 
+                "variables": {}, 
+                "functions": {
+                    "sceKernelGetProcessKernelBuf": 3118891154
+                }
+            }
+        }
+    },
+    "SceLibKernel": {
+        "modules": {
             "SceLibKernel": {
                 "functions": {
                     "SceKernelStackChkGuard": 1146666227, 
@@ -1900,145 +2363,6 @@
                 "nid": 3404311782, 
                 "variables": {}
             }, 
-            "SceModulemgr": {
-                "functions": {
-                    "sceKernelGetModuleIdByAddr": 4118383740, 
-                    "sceKernelGetModuleInfo": 911760815, 
-                    "sceKernelGetModuleList": 787634207, 
-                    "sceKernelGetSystemSwVersion": 1367532050
-                }, 
-                "kernel": false, 
-                "nid": 3941406230, 
-                "variables": {}
-            }, 
-            "SceProcessmgr": {
-                "functions": {
-                    "sceKernelGetStderr": 4200479450, 
-                    "sceKernelGetStdin": 3245506393, 
-                    "sceKernelGetStdout": 3853148764, 
-                    "sceKernelIsCDialogAvailable": 339461334, 
-                    "sceKernelIsGameBudget": 3457090288, 
-                    "sceKernelLibcClock": 2655377929, 
-                    "sceKernelLibcGettimeofday": 1267175513, 
-                    "sceKernelLibcGmtime_r": 3164878797, 
-                    "sceKernelLibcLocaltime_r": 2498773485, 
-                    "sceKernelLibcMktime": 2299255865, 
-                    "sceKernelLibcTime": 3784261, 
-                    "sceKernelPowerLock": 2057778040, 
-                    "sceKernelPowerTick": 575834380, 
-                    "sceKernelPowerUnlock": 1181486269, 
-                    "sceKernelRegisterProcessTerminationCallback": 1590130800, 
-                    "sceKernelUnregisterProcessTerminationCallback": 2537178407
-                }, 
-                "kernel": false, 
-                "nid": 769202194, 
-                "variables": {}
-            }, 
-            "SceSysmem": {
-                "functions": {
-                    "sceKernelAllocMemBlock": 3117804510, 
-                    "sceKernelAllocMemBlockForVM": 3805798711, 
-                    "sceKernelCloseMemBlock": 3061900192, 
-                    "sceKernelCloseVMDomain": 3603584714, 
-                    "sceKernelFindMemBlockByAddr": 2738592209, 
-                    "sceKernelFreeMemBlock": 2837321198, 
-                    "sceKernelGetFreeMemorySize": 2278316043, 
-                    "sceKernelGetMemBlockBase": 3102693400, 
-                    "sceKernelGetMemBlockInfoByAddr": 1074834789, 
-                    "sceKernelGetMemBlockInfoByRange": 7290292, 
-                    "sceKernelGetModelForCDialog": 2731225647, 
-                    "sceKernelOpenMemBlock": 2394480571, 
-                    "sceKernelOpenVMDomain": 2627988267, 
-                    "sceKernelSyncVMDomain": 433235994
-                }, 
-                "kernel": false, 
-                "nid": 939422298, 
-                "variables": {}
-            }, 
-            "SceThreadmgr": {
-                "functions": {
-                    "sceKernelCancelCallback": 812916466, 
-                    "sceKernelChangeActiveCpuMask": 1143800, 
-                    "sceKernelChangeThreadCpuAffinityMask": 353538420, 
-                    "sceKernelChangeThreadPriority": 3170974194, 
-                    "sceKernelChangeThreadVfpException": 3424189358, 
-                    "sceKernelCheckCallback": 3846062582, 
-                    "sceKernelCheckWaitableStatus": 3653072107, 
-                    "sceKernelClearEvent": 2066369320, 
-                    "sceKernelClearEventFlag": 1287158951, 
-                    "sceKernelCloseCond": 365334752, 
-                    "sceKernelCloseEventFlag": 2590569799, 
-                    "sceKernelCloseMsgPipe": 319135845, 
-                    "sceKernelCloseMutex": 65157878, 
-                    "sceKernelCloseRWLock": 4250654145, 
-                    "sceKernelCloseSema": 2732072862, 
-                    "sceKernelCloseSimpleEvent": 4277455443, 
-                    "sceKernelCloseTimer": 2900758090, 
-                    "sceKernelCreateCallback": 2979854313, 
-                    "sceKernelCreateThreadForUser": 3237672611, 
-                    "sceKernelDelayThread": 1265065221, 
-                    "sceKernelDelayThreadCB": 2617344225, 
-                    "sceKernelDeleteCallback": 3563677547, 
-                    "sceKernelDeleteCond": 2275307197, 
-                    "sceKernelDeleteEventFlag": 1480594988, 
-                    "sceKernelDeleteMsgPipe": 3884698871, 
-                    "sceKernelDeleteMutex": 3413668109, 
-                    "sceKernelDeleteRWLock": 3879094730, 
-                    "sceKernelDeleteSema": 3677525130, 
-                    "sceKernelDeleteSimpleEvent": 546111016, 
-                    "sceKernelDeleteThread": 465429465, 
-                    "sceKernelDeleteTimer": 2870887108, 
-                    "sceKernelExitDeleteThread": 488103631, 
-                    "sceKernelGetCallbackCount": 59131093, 
-                    "sceKernelGetMsgPipeCreatorId": 1893902034, 
-                    "sceKernelGetProcessId": 2647346042, 
-                    "sceKernelGetThreadStackFreeSize": 1334459808, 
-                    "sceKernelGetThreadmgrUIDClass": 3379007359, 
-                    "sceKernelGetTimerBaseWide": 1572608352, 
-                    "sceKernelGetTimerTimeWide": 1056780645, 
-                    "sceKernelNotifyCallback": 2758292882, 
-                    "sceKernelOpenCond": 1992138799, 
-                    "sceKernelOpenEventFlag": 3155818657, 
-                    "sceKernelOpenMsgPipe": 236763638, 
-                    "sceKernelOpenMutex": 1390506370, 
-                    "sceKernelOpenRWLock": 3461415318, 
-                    "sceKernelOpenSema": 3420599751, 
-                    "sceKernelOpenSimpleEvent": 1310608888, 
-                    "sceKernelOpenTimer": 3068298983, 
-                    "sceKernelPollSema": 2255417416, 
-                    "sceKernelPulseEvent": 2368191190, 
-                    "sceKernelRegisterCallbackToEvent": 1996175337, 
-                    "sceKernelSendSignal": 3569575858, 
-                    "sceKernelSetEvent": 843192525, 
-                    "sceKernelSetEventFlag": 3969179639, 
-                    "sceKernelSetTimerTimeWide": 658197069, 
-                    "sceKernelSignalCond": 1859314396, 
-                    "sceKernelSignalCondAll": 3269962786, 
-                    "sceKernelSignalCondTo": 308933868, 
-                    "sceKernelSignalSema": 3870777809, 
-                    "sceKernelStartTimer": 1208557068, 
-                    "sceKernelStopTimer": 2258542368, 
-                    "sceKernelTryLockMutex": 1929125716, 
-                    "sceKernelTryLockReadRWLock": 4024280150, 
-                    "sceKernelTryLockWriteRWLock": 543996774, 
-                    "sceKernelUnlockMutex": 439824072, 
-                    "sceKernelUnlockReadRWLock": 1056510277, 
-                    "sceKernelUnlockWriteRWLock": 3021280151, 
-                    "sceKernelUnregisterCallbackFromEvent": 407251729, 
-                    "sceKernelUnregisterCallbackFromEventAll": 2290774881
-                }, 
-                "kernel": false, 
-                "nid": 2241471665, 
-                "variables": {}
-            }, 
-            "SceThreadmgrCoredumpTime": {
-                "functions": {
-                    "sceKernelExitThread": 210385121
-                }, 
-                "kernel": false, 
-                "nid": 1586302498, 
-                "variables": {}
-            },
             "SceLibRng": {
                 "functions": {
                     "sceKernelGetRandomNumber": 2993684837
@@ -2797,7 +3121,7 @@
                     "sceMusicExportFromFile": 134219129
                 }, 
                 "kernel": false, 
-                "nid": 100, 
+                "nid": 4074966765, 
                 "variables": {}
             }
         }, 
@@ -4384,6 +4708,22 @@
         }, 
         "nid": 202
     }, 
+    "SceShellSvc": {
+        "modules": {
+            "SceShellUtil": {
+                "functions": {
+                    "sceShellUtilRegisterEventHandler": 2069815271, 
+                    "sceShellUtilInitEvents": 3903656428, 
+                    "sceShellUtilLock": 2840818227, 
+                    "sceShellUtilUnlock": 564580180
+                }, 
+                "kernel": false, 
+                "nid": 3534866606, 
+                "variables": {}
+            }
+        }, 
+        "nid": 2182988835
+    }, 
     "SceShutterSound": {
         "modules": {
             "SceShutterSound": {
@@ -5141,5 +5481,47 @@
             }
         },
         "nid": 227
+    },
+    "SceStdio": {
+        "nid": 1998222272, 
+        "modules": {
+            "SceDebugForDriver": {
+                "kernel": true, 
+                "nid": 2289403233, 
+                "variables": {}, 
+                "functions": {
+                    "printf": 958100663
+                }
+            }
+        }
+    },
+    "SceSblSsMgr": {
+        "nid": 4259156986, 
+        "modules": {
+            "SceSblSsMgrForDriver": {
+                "kernel": true, 
+                "nid": 1642676877, 
+                "variables": {}, 
+                "functions": {
+                    "sceKernelGetRandomNumberForDriver": 1335622629
+                }
+            }
+        }
+    },
+    "SceSblACMgr": {
+        "nid": 3068505790, 
+        "modules": {
+            "SceSblACMgrForDriver": {
+                "kernel": true, 
+                "nid": 2597904915, 
+                "variables": {}, 
+                "functions": {
+                    "sceSblACMgrIsShell": 2249372227,
+                    "sceSblACMgrIsGameProgram": 312002119,
+                    "sceSblACMgrIsNonGameProgram": 1817882751,
+                    "sceSblACMgrIsDevelopmentMode": 3900512119
+                }
+            }
+        }
     }
 }
