@@ -1,5 +1,12 @@
 var NAVTREEINDEX64 =
 {
+"group__SceVfsKernel.html#ga8115a4d929a0b7d2bfd3885b07f60068":[1,4,7,0,321],
+"group__SceVfsKernel.html#ga813e051f0ee902e48beb31bb5986b1df":[1,4,7,0,305],
+"group__SceVfsKernel.html#ga82df5c046ef2a8cb21884198c62e2c70":[1,4,7,0,176],
+"group__SceVfsKernel.html#ga82dfc79129c876abce98d3d108b35450":[1,4,7,0,83],
+"group__SceVfsKernel.html#ga82f71fae6746479fcf493b0cd20041da":[1,4,7,0,343],
+"group__SceVfsKernel.html#ga8314e9dfc99f0d3893c42f6789f9142d":[1,4,7,0,158],
+"group__SceVfsKernel.html#ga836aac8896fe3735780564ffea87f4d9":[1,4,7,0,206],
 "group__SceVfsKernel.html#ga8423d72c93e09feab3d01844727ee5a5":[1,4,7,0,204],
 "group__SceVfsKernel.html#ga84270f21002898ab245346adb7cd22f0":[1,4,7,0,331],
 "group__SceVfsKernel.html#ga845b0c59847a9884ec673c763578ec27":[1,4,7,0,362],
@@ -242,12 +249,5 @@ var NAVTREEINDEX64 =
 "group__SceVfsKernel.html#structSceVopSyncArgs":[1,4,7,0,37],
 "group__SceVfsKernel.html#structSceVopTable":[1,4,7,0,44],
 "group__SceVfsKernel.html#structSceVopUnlinkArgs":[1,4,7,0,36],
-"group__SceVfsKernel.html#structSceVopWhiteoutArgs":[1,4,7,0,41],
-"group__SceVfsKernel.html#structSceVopWriteArgs":[1,4,7,0,21],
-"group__SceVfsKernel.html#structSceVopZerofillArgs":[1,4,7,0,43],
-"group__SceVideoDec.html":[1,0,12],
-"group__SceVideoDecUser.html":[1,0,12,0],
-"group__SceVideoDecUser.html#ga0262c840c73d4cae3ffeece800bd15e4":[1,0,12,0,78],
-"group__SceVideoDecUser.html#ga0581f92f5036180dad8120c54b2d9550":[1,0,12,0,108],
-"group__SceVideoDecUser.html#ga0900a19c69ec41d5a64b53d0b35364f4":[1,0,12,0,99]
+"group__SceVfsKernel.html#structSceVopWhiteoutArgs":[1,4,7,0,41]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX67 =
 {
+"psp2kern_2registrymgr_8h_source.html":[4,0,1,2,18],
+"psp2kern_2touch_8h.html":[4,0,1,2,19],
+"psp2kern_2touch_8h_source.html":[4,0,1,2,19],
+"psp2kern_2types_8h.html":[4,0,1,2,20],
+"psp2kern_2types_8h_source.html":[4,0,1,2,20],
+"psp2kern_2udcd_8h.html":[4,0,1,2,21],
+"psp2kern_2udcd_8h_source.html":[4,0,1,2,21],
 "psp2kern_2usbd_8h.html":[4,0,1,2,22],
 "psp2kern_2usbd_8h_source.html":[4,0,1,2,22],
 "psp2kern_2usbserial_8h.html":[4,0,1,2,23],

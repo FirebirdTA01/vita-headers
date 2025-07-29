@@ -574,6 +574,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__SceGxmUser.html#gga79a56d8caeda63dcfc989f61195728cfa62318dcdd46d4db1185f911346fc6418">SCE_GXM_MULTISAMPLE_4X</a>
  }</td></tr>
 <tr class="separator:ga79a56d8caeda63dcfc989f61195728cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49ab4f85d5f59d09120df5e6f9dc8e2e" id="r_ga49ab4f85d5f59d09120df5e6f9dc8e2e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e">SceGxmTextureAnisoMode</a> { <a class="el" href="group__SceGxmUser.html#gga49ab4f85d5f59d09120df5e6f9dc8e2ea54d2da34fcbe4632f5b2bdafe1233ef5">SCE_GXM_TEXTURE_ANISO_MODE_DISABLED</a> = 0x00000000u
+, <a class="el" href="group__SceGxmUser.html#gga49ab4f85d5f59d09120df5e6f9dc8e2ea57db628dc4542b1b8431a5bfed27b134">SCE_GXM_TEXTURE_ANISO_MODE_2X</a> = 0x00000001u
+ }</td></tr>
+<tr class="separator:ga49ab4f85d5f59d09120df5e6f9dc8e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf939fc011a6ea94573487b950b24b443" id="r_gaf939fc011a6ea94573487b950b24b443"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#gaf939fc011a6ea94573487b950b24b443">SceGxmTextureSwizzle4Mode</a> { <br />
 &#160;&#160;<a class="el" href="group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a486b513ff38bbae5b24ea7c5a7067434">SCE_GXM_TEXTURE_SWIZZLE4_ABGR</a> = 0x00000000u
 , <a class="el" href="group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a471610276f219df095814ef8f7a39fa4">SCE_GXM_TEXTURE_SWIZZLE4_ARGB</a> = 0x00001000u
@@ -1732,6 +1736,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga49b8453913bdbc02f96815601cb39037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga23d9d12ead8d3ff8af12a45c4ab2d46b" id="r_ga23d9d12ead8d3ff8af12a45c4ab2d46b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#ga23d9d12ead8d3ff8af12a45c4ab2d46b">sceGxmTextureValidate</a> (const <a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *texture)</td></tr>
 <tr class="separator:ga23d9d12ead8d3ff8af12a45c4ab2d46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacec69a5b3db0b7df181b40afb8a3fd55" id="r_gacec69a5b3db0b7df181b40afb8a3fd55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#gacec69a5b3db0b7df181b40afb8a3fd55">sceGxmTextureSetAnisoMode</a> (<a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *texture, <a class="el" href="group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e">SceGxmTextureAnisoMode</a> anisoMode)</td></tr>
+<tr class="separator:gacec69a5b3db0b7df181b40afb8a3fd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63eb43b8ab8c1dfb55935a24c2f6d40a" id="r_ga63eb43b8ab8c1dfb55935a24c2f6d40a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e">SceGxmTextureAnisoMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#ga63eb43b8ab8c1dfb55935a24c2f6d40a">sceGxmTextureGetAnisoMode</a> (const <a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *texture)</td></tr>
+<tr class="separator:ga63eb43b8ab8c1dfb55935a24c2f6d40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga62d73ee7c00355001dedef0225d8e8bd" id="r_ga62d73ee7c00355001dedef0225d8e8bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#ga62d73ee7c00355001dedef0225d8e8bd">sceGxmTextureSetMinFilter</a> (<a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *texture, <a class="el" href="group__SceGxmUser.html#ga7380bee0231b7907fc1f4b98be060f38">SceGxmTextureFilter</a> minFilter)</td></tr>
 <tr class="separator:ga62d73ee7c00355001dedef0225d8e8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8d484f4a717bb6ccbf0998930fe7e2cc" id="r_ga8d484f4a717bb6ccbf0998930fe7e2cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__SceGxmUser.html#ga7380bee0231b7907fc1f4b98be060f38">SceGxmTextureFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SceGxmUser.html#ga8d484f4a717bb6ccbf0998930fe7e2cc">sceGxmTextureGetMinFilter</a> (const <a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *texture)</td></tr>
@@ -4753,6 +4761,24 @@ Texture format type. </td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga79a56d8caeda63dcfc989f61195728cfa781ea9fa14942bdbb75e3b73dfdd3afb" name="gga79a56d8caeda63dcfc989f61195728cfa781ea9fa14942bdbb75e3b73dfdd3afb"></a>SCE_GXM_MULTISAMPLE_NONE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga79a56d8caeda63dcfc989f61195728cfa1faffc5df16c3718eb19edeea93612b0" name="gga79a56d8caeda63dcfc989f61195728cfa1faffc5df16c3718eb19edeea93612b0"></a>SCE_GXM_MULTISAMPLE_2X&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga79a56d8caeda63dcfc989f61195728cfa62318dcdd46d4db1185f911346fc6418" name="gga79a56d8caeda63dcfc989f61195728cfa62318dcdd46d4db1185f911346fc6418"></a>SCE_GXM_MULTISAMPLE_4X&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga49ab4f85d5f59d09120df5e6f9dc8e2e" name="ga49ab4f85d5f59d09120df5e6f9dc8e2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49ab4f85d5f59d09120df5e6f9dc8e2e">&#9670;&#160;</a></span>SceGxmTextureAnisoMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e">SceGxmTextureAnisoMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga49ab4f85d5f59d09120df5e6f9dc8e2ea54d2da34fcbe4632f5b2bdafe1233ef5" name="gga49ab4f85d5f59d09120df5e6f9dc8e2ea54d2da34fcbe4632f5b2bdafe1233ef5"></a>SCE_GXM_TEXTURE_ANISO_MODE_DISABLED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga49ab4f85d5f59d09120df5e6f9dc8e2ea57db628dc4542b1b8431a5bfed27b134" name="gga49ab4f85d5f59d09120df5e6f9dc8e2ea57db628dc4542b1b8431a5bfed27b134"></a>SCE_GXM_TEXTURE_ANISO_MODE_2X&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -11273,6 +11299,52 @@ Texture format type. </td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int sceGxmTextureValidate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *&#160;</td>
+          <td class="paramname"><em>texture</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacec69a5b3db0b7df181b40afb8a3fd55" name="gacec69a5b3db0b7df181b40afb8a3fd55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacec69a5b3db0b7df181b40afb8a3fd55">&#9670;&#160;</a></span>sceGxmTextureSetAnisoMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sceGxmTextureSetAnisoMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e">SceGxmTextureAnisoMode</a>&#160;</td>
+          <td class="paramname"><em>anisoMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga63eb43b8ab8c1dfb55935a24c2f6d40a" name="ga63eb43b8ab8c1dfb55935a24c2f6d40a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63eb43b8ab8c1dfb55935a24c2f6d40a">&#9670;&#160;</a></span>sceGxmTextureGetAnisoMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e">SceGxmTextureAnisoMode</a> sceGxmTextureGetAnisoMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__SceGxmUser.html#structSceGxmTexture">SceGxmTexture</a> *&#160;</td>
           <td class="paramname"><em>texture</em></td><td>)</td>

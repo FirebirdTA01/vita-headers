@@ -505,6 +505,10 @@ var group__SceGxmUser =
       [ "SCE_GXM_MULTISAMPLE_2X", "group__SceGxmUser.html#gga79a56d8caeda63dcfc989f61195728cfa1faffc5df16c3718eb19edeea93612b0", null ],
       [ "SCE_GXM_MULTISAMPLE_4X", "group__SceGxmUser.html#gga79a56d8caeda63dcfc989f61195728cfa62318dcdd46d4db1185f911346fc6418", null ]
     ] ],
+    [ "SceGxmTextureAnisoMode", "group__SceGxmUser.html#ga49ab4f85d5f59d09120df5e6f9dc8e2e", [
+      [ "SCE_GXM_TEXTURE_ANISO_MODE_DISABLED", "group__SceGxmUser.html#gga49ab4f85d5f59d09120df5e6f9dc8e2ea54d2da34fcbe4632f5b2bdafe1233ef5", null ],
+      [ "SCE_GXM_TEXTURE_ANISO_MODE_2X", "group__SceGxmUser.html#gga49ab4f85d5f59d09120df5e6f9dc8e2ea57db628dc4542b1b8431a5bfed27b134", null ]
+    ] ],
     [ "SceGxmTextureSwizzle4Mode", "group__SceGxmUser.html#gaf939fc011a6ea94573487b950b24b443", [
       [ "SCE_GXM_TEXTURE_SWIZZLE4_ABGR", "group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a486b513ff38bbae5b24ea7c5a7067434", null ],
       [ "SCE_GXM_TEXTURE_SWIZZLE4_ARGB", "group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a471610276f219df095814ef8f7a39fa4", null ],
@@ -1386,6 +1390,8 @@ var group__SceGxmUser =
     [ "SCE_GXM_MULTISAMPLE_NONE", "group__SceGxmUser.html#gga79a56d8caeda63dcfc989f61195728cfa781ea9fa14942bdbb75e3b73dfdd3afb", null ],
     [ "SCE_GXM_MULTISAMPLE_2X", "group__SceGxmUser.html#gga79a56d8caeda63dcfc989f61195728cfa1faffc5df16c3718eb19edeea93612b0", null ],
     [ "SCE_GXM_MULTISAMPLE_4X", "group__SceGxmUser.html#gga79a56d8caeda63dcfc989f61195728cfa62318dcdd46d4db1185f911346fc6418", null ],
+    [ "SCE_GXM_TEXTURE_ANISO_MODE_DISABLED", "group__SceGxmUser.html#gga49ab4f85d5f59d09120df5e6f9dc8e2ea54d2da34fcbe4632f5b2bdafe1233ef5", null ],
+    [ "SCE_GXM_TEXTURE_ANISO_MODE_2X", "group__SceGxmUser.html#gga49ab4f85d5f59d09120df5e6f9dc8e2ea57db628dc4542b1b8431a5bfed27b134", null ],
     [ "SCE_GXM_TEXTURE_SWIZZLE4_ABGR", "group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a486b513ff38bbae5b24ea7c5a7067434", null ],
     [ "SCE_GXM_TEXTURE_SWIZZLE4_ARGB", "group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a471610276f219df095814ef8f7a39fa4", null ],
     [ "SCE_GXM_TEXTURE_SWIZZLE4_RGBA", "group__SceGxmUser.html#ggaf939fc011a6ea94573487b950b24b443a84d0ed78e91045ca3819252a333cdf25", null ],
@@ -2124,6 +2130,8 @@ var group__SceGxmUser =
     [ "sceGxmTextureInitCube", "group__SceGxmUser.html#gab287055258374f19006cb3eb15a8c4fe", null ],
     [ "sceGxmTextureGetType", "group__SceGxmUser.html#ga49b8453913bdbc02f96815601cb39037", null ],
     [ "sceGxmTextureValidate", "group__SceGxmUser.html#ga23d9d12ead8d3ff8af12a45c4ab2d46b", null ],
+    [ "sceGxmTextureSetAnisoMode", "group__SceGxmUser.html#gacec69a5b3db0b7df181b40afb8a3fd55", null ],
+    [ "sceGxmTextureGetAnisoMode", "group__SceGxmUser.html#ga63eb43b8ab8c1dfb55935a24c2f6d40a", null ],
     [ "sceGxmTextureSetMinFilter", "group__SceGxmUser.html#ga62d73ee7c00355001dedef0225d8e8bd", null ],
     [ "sceGxmTextureGetMinFilter", "group__SceGxmUser.html#ga8d484f4a717bb6ccbf0998930fe7e2cc", null ],
     [ "sceGxmTextureSetMagFilter", "group__SceGxmUser.html#gae3ce0c3066754bdd2843d8825630bc20", null ],
